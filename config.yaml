@@ -1,0 +1,21 @@
+credentials:
+  usernames:
+    admin:
+      email: 'admin@example.com'
+      name: Amministratore Sistema
+      password: '$2b$12$CvaroYRJ218poHnMQcfq6OH08Ba54lkzU2dMHjmganUZ8wyKbUzLm'
+      role: 'admin'
+    controller:
+      email: 'controller@example.com'
+      name: Controllore Dati
+      password: '$2b$12$CvaroYRJ218poHnMQcfq6OH08Ba54lkzU2dMHjmganUZ8wyKbUzLm'
+      role: 'controllore'
+    utente_test:
+      email: 'utente'
+      name: utente
+      password: '$2b$12$KFiCIlNLvRXxlrek2oPScukhO9fVrdQH4GBMmhKaxBc6ak9LbFony'
+      role: 'richiedente'
+cookie:
+  expiry_days: 30
+  key: 's9Qh6$Lp#fT7!z@8NcXwG2vRkYdJbA3u'
+  name: 'gestione_spese_cookie'

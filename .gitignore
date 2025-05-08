@@ -1,0 +1,18 @@
+# Ambiente Virtuale Python
+.centiest/  # Sostituisci .centiest con il nome della tua cartella venv se diverso
+venv/
+*.pyc
+__pycache__/
+
+# File di Sistema Operativo
+.DS_Store
+
+# Database e Log (potresti volerli escludere)
+database/*.db
+database/*.log
+
+# File di configurazione con segreti (se non vuoi condividerli)
+# config.yaml # Decommenta se contiene password reali o chiavi segrete
+
+# File IDE/Editor
+.vscode/

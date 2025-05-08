@@ -1,0 +1,6 @@
+streamlit
+pandas
+openpyxl
+streamlit-authenticator==0.3.2 
+bcrypt
+# sqlalchemy # Potrebbe non essere più strettamente necessario se usiamo sqlite3 direttamente
