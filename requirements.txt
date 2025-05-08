@@ -3,4 +3,5 @@ pandas
 openpyxl
 streamlit-authenticator==0.3.2 
 bcrypt
+PyYAML
 # sqlalchemy # Potrebbe non essere più strettamente necessario se usiamo sqlite3 direttamente
