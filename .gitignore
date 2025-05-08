@@ -1,6 +1,5 @@
 # Ambiente Virtuale Python
-.centiest/  # Sostituisci .centiest con il nome della tua cartella venv se diverso
-venv/
+.centiest/ 
 *.pyc
 __pycache__/
 
