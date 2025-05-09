@@ -1,4 +1,4 @@
-#cartella/pages/03_Admin_Settings.py
+#pages/03_Admin_Settings.py
 import streamlit as st
 from utils.db import log_activity 
 
@@ -65,4 +65,4 @@ Eventuali future impostazioni globali dell'applicazione (es. limiti, parametri d
 #    st.write("Logica per gestire nuove registrazioni...")
 
 log_activity(USERNAME_ADMIN_PAGE, "ADMIN_SETTINGS_NO_OPTS_DISPLAYED")
-#cartella/pages/03_Admin_Settings.py
+#pages/03_Admin_Settings.py

@@ -1,4 +1,4 @@
-#cartella/pages/02_Log_Attivita.py
+#pages/02_Log_Attivita.py
 import streamlit as st
 from utils.db import get_log_content, log_activity 
 
@@ -53,4 +53,4 @@ except Exception as e_log_display:
     st.error(f"Impossibile visualizzare il log: {e_log_display}")
     log_activity(USERNAME_LOG, "LOG_DISPLAY_ERROR", str(e_log_display))
 
-#cartella/pages/02_Log_Attivita.py
+#pages/02_Log_Attivita.py

@@ -1,4 +1,4 @@
-#cartella/hash_password.py
+#./hash_password.py
 import streamlit_authenticator as stauth
 import sys
 import getpass # Per nascondere l'input della password
@@ -26,4 +26,4 @@ if __name__ == "__main__":
     hashed_password_output = generate_hashed_password(password_to_hash)
     print("\nPassword hashata (copia questa nel tuo config.yaml):")
     print(hashed_password_output)
-#cartella/hash_password.py
+#./hash_password.py

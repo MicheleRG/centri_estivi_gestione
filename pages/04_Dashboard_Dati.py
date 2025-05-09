@@ -1,4 +1,4 @@
-#cartella/pages/04_Dashboard_Dati.py 
+#/pages/04_Dashboard_Dati.py 
 import streamlit as st
 import pandas as pd
 from utils.db import get_all_spese, log_activity, delete_spese_by_ids
@@ -233,4 +233,4 @@ else:
                             st.rerun() # Ricarica per aggiornare la vista e resettare il form
                     else: # Questo caso non dovrebbe essere raggiunto se il bottone è disabilitato correttamente
                         st.error("Conferma non corretta. Eliminazione annullata.")
-#cartella/pages/04_Dashboard_Dati.py
+#/pages/04_Dashboard_Dati.py

@@ -12,6 +12,8 @@ def generate_hashed_passwords():
     for i, hashed_pw in enumerate(hashed_passwords):
         print(f"Password per utente (esempio {i+1}): {hashed_pw}")
     print("------------------------")
+    print("Ricorda di aggiornare il file config.yaml con le password hashate generate e di impostare i ruoli (admin/user).")
+
 
 if __name__ == '__main__':
     generate_hashed_passwords()
